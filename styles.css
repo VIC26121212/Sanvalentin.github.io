@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(255, 140, 157);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-direction: column;
+
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.SI-B{
+    font-size: 1rem;
+    margin-right: 5px;
+    background-color: rgb(117, 255, 167);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.SI-B:hover{
+    background-color: rgb(0, 255, 85);
+    color: rgb(5, 37, 0);
+}
+
+.Mmmmno-B{
+    font-size: 1rem;
+    margin-right: 5px;
+    background-color: rgb(255, 109, 109);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Mmmmno-B:hover{
+    background-color: rgb(255, 33, 33);
+    color: rgb(63, 0, 0);
+}
